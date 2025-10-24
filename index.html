@@ -79,13 +79,36 @@
                 <div class="flex justify-center space-x-4">
                     <a href="#projects"
                         class="bg-violet-600 hover:bg-violet-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-lg shadow-violet-600/30">Lihat
-                        Proyek Saya</a>
-                    <a href="/path-to-your-cv.pdf" download
-                        class="bg-gray-700/50 hover:bg-gray-600/50 border border-gray-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 backdrop-blur-sm">Unduh
-                        CV</a>
+                        Proyek Saya
+                    </a>
+                    <button id="showCVButton"
+                        class="bg-gray-700/50 hover:bg-gray-600/50 border border-gray-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 backdrop-blur-sm">
+                        Lihat CV
+                    </button>
                 </div>
             </div>
         </section>
+
+        <!-- Modal Container -->
+        <div id="cvModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center z-50 transition-opacity duration-300 opacity-0">
+            <div id="modalContent" class="bg-gray-900 border border-gray-700 rounded-2xl w-11/12 md:w-3/4 lg:w-1/2 p-4 relative transform scale-95 transition-all duration-300 ease-out">
+                
+                <!-- Tombol Close -->
+                <button id="closeModal"
+                    class="absolute top-3 right-3 text-gray-400 hover:text-white text-2xl font-bold">
+                    ✕
+                </button>
+
+                <h2 class="text-gray-100 text-xl font-semibold mb-4 text-center">Curriculum Vitae</h2>
+
+                <!-- Preview PDF -->
+                <div>
+                    <iframe src="./file/Muhammad Sofyan CV.pdf"
+                        class="w-full h-[80vh] rounded-lg"
+                        frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
 
         <!-- About Section -->
         <section id="about" class="py-20 md:py-32">
@@ -127,8 +150,7 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 section-title">Proyek Unggulan</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Project Card 1 -->
-                <div
-                    class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
+                <div class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
                     <img src="./image/simbpb.png" alt="Proyek 1" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-gray-100">SIMBPB</h3>
@@ -173,23 +195,42 @@
                 </div>
 
                 <!-- Project Card 4 -->
-                <div
-                    class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
-                    <img src="./image/wp.png" alt="Proyek 3" class="w-full h-48 object-cover">
+                <div class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
+                    <img src="./image/wp.png" alt="Proyek 4" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-gray-100">SAPA</h3>
-                        <p class="text-gray-400 mb-4">Deskripsi singkat tentang proyek ini, teknologi yang digunakan, dan peran Anda.</p>
+                        <p class="text-gray-400 mb-4"><strong>SAPA (Sahabat Perempuan Dan Anak)</strong> merupakan platform layanan pengaduan yang dirancang untuk mendukung perempuan dan anak 
+                            dalam mendapatkan perlindungan dan pendampingan yang tepat. 
+                            Website ini menyediakan berbagai fitur utama, seperti layanan pengaduan online, pelacakan status pengaduan, 
+                            layanan pendampingan dan konsultasi, serta penyediaan informasi edukatif terkait isu perempuan dan anak. 
+                        </p>
                         <a href="#" class="text-violet-400 hover:underline">Lihat Detail &rarr;</a>
                     </div>
                 </div>
 
                 <!-- Project Card 5 -->
-                <div
-                    class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
-                    <img src="./image/landing_page_koprs.png" alt="Proyek 3" class="w-full h-48 object-cover">
+                <div class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
+                    <img src="./image/landing_page_koprs.png" alt="Proyek 5" class="w-full h-48 object-cover">
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2 text-gray-100">Koperasi Simpan Pinjam</h3>
-                        <p class="text-gray-400 mb-4">Deskripsi singkat tentang proyek ini, teknologi yang digunakan, dan peran Anda.</p>
+                        <p class="text-gray-400 mb-4">Proyek ini saya kembangkan untuk membantu koperasi dalam melakukan transformasi digital. 
+                            Melalui platform ini, anggota dapat mengelola simpanan dan pinjaman secara online, melihat riwayat transaksi, dan memantau laporan keuangan dengan mudah.
+                            Fokus utama saya adalah membuat sistem yang user-friendly, responsif, dan aman, agar koperasi bisa beroperasi lebih efisien di era digital.
+                        </p>
+                        <a href="#" class="text-violet-400 hover:underline">Lihat Detail &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 6 -->
+                <div class="bg-gray-900/50 border border-gray-800 rounded-2xl overflow-hidden card-hover-effect backdrop-blur-sm">
+                    <img src="./image/websinikimas.jpg" alt="Proyek 6" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-100">Sinikimas</h3>
+                        <p class="text-gray-400 mb-4">Dalam proyek “Sinikimas”, saya berkolaborasi dengan tim saya untuk merancang platform yang memberi suara langsung kepada masyarakat melalui survei kepuasan layanan. 
+                            Mulai dari desain antarmuka yang ramah pengguna hingga integrasi backend untuk analisis data, 
+                            saya fokus memastikan bahwa hasil survei dapat diakses secara transparan dan mudah dipahami oleh publik.
+                            Hasilnya: layanan publik kini memiliki alat untuk melihat di mana mereka sudah memuaskan dan di mana masih perlu perbaikan.
+                        </p>
                         <a href="#" class="text-violet-400 hover:underline">Lihat Detail &rarr;</a>
                     </div>
                 </div>

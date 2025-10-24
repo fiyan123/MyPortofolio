@@ -113,3 +113,42 @@ style.innerHTML = `
             }
     `;
 document.head.appendChild(style);
+
+
+// --- CV Modal ---
+const showCVButton = document.getElementById('showCVButton');
+const cvModal = document.getElementById('cvModal');
+const modalContent = document.getElementById('modalContent');
+const closeModal = document.getElementById('closeModal');
+
+// Buka modal
+showCVButton.addEventListener('click', () => {
+    cvModal.classList.remove('hidden');
+    setTimeout(() => {
+        cvModal.classList.add('opacity-100');
+        modalContent.classList.remove('scale-95');
+        modalContent.classList.add('scale-100');
+    }, 10);
+});
+
+// Tutup modal
+const hideModal = () => {
+    cvModal.classList.remove('opacity-100');
+    modalContent.classList.remove('scale-100');
+    modalContent.classList.add('scale-95');
+    setTimeout(() => {
+        cvModal.classList.add('hidden');
+    }, 300);
+};
+
+closeModal.addEventListener('click', hideModal);
+
+// Klik di luar konten untuk menutup
+cvModal.addEventListener('click', (e) => {
+    if (e.target === cvModal) hideModal();
+});
+
+// Tekan ESC untuk menutup modal
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') hideModal();
+});
