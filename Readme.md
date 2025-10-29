@@ -7,7 +7,7 @@ Tujuan saya adalah menciptakan sistem web yang efisien, aman, dan elegan secara 
 
 ---
 
-> “Sebuah sistem bukan sekadar rangkaian kode, tetapi juga seni dalam menyalurkan kreativitas.”  
+> “Sebuah sistem bukan sekadar rangkaian kode, tetapi juga logika dalam menyalurkan kreativitas.”  
 > — *Muhammad Sofyan*
 
 ---
@@ -20,5 +20,3 @@ Tujuan saya adalah menciptakan sistem web yang efisien, aman, dan elegan secara 
 - 📸 **Instagram:** [instagram.com/mhdsofyan_](https://instagram.com/mhdsofyan_)
 
 ---
-
-⭐ *“Membangun sistem bukan sekadar menulis kode — tetapi menciptakan pengalaman yang hidup.”*
