@@ -17,6 +17,6 @@ Tujuan saya adalah menciptakan sistem web yang efisien, aman, dan elegan secara 
 - 🌍 **Website:** [muhammadsofyan.dev](https://muhammadsofyan.dev)
 - 📧 **Email:** [moehamadsofyan@gmail.com](mailto:moehamadsofyan@gmail.com)
 - 💼 **LinkedIn:** [linkedin.com/in/muhammadsofyan](https://linkedin.com/in/muhammadsofyan)
-- 📸 **Instagram:** [instagram.com/mhdsofyan_](https://instagram.com/sofyan1965_)
+- 📸 **Instagram:** [instagram.com/sofyan1965_](https://instagram.com/sofyan1965_)
 
 ---
