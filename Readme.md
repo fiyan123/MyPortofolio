@@ -1,17 +1,24 @@
-# 🌐 Muhammad Sofyan — Portfolio 
+# 🌐 Muhammad Sofyan — Portfolio  
 
-## 👨‍💻 Tentang Saya
+## 👨‍💻 Tentang Saya  
 
-Saya adalah Web | Backend Developer yang fokus pada pengembangan aplikasi berbasis Laravel, JavaScript, dan desain antarmuka modern.
+Saya adalah **Web | Backend Developer** yang fokus pada pengembangan aplikasi berbasis **Laravel**, **JavaScript**, dan **desain antarmuka modern**.  
 Tujuan saya adalah menciptakan sistem web yang efisien, aman, dan elegan secara visual.
 
 ---
 
-# "Sebuah sistem bukan sekadar rangkaian kode, tetapi juga seni dalam menyalurkan kreativitas" 
--- <i>Muhammad Sofyan</i>
+> “Sebuah sistem bukan sekadar rangkaian kode, tetapi juga seni dalam menyalurkan kreativitas.”  
+> — *Muhammad Sofyan*
 
-## Tujuan saya adalah menciptakan sistem web yang efisien, aman, dan elegan secara visual.
+---
 
-🌍 Website: muhammadsofyan.dev
-📧 Email: moehamadsofyan@gmail.com
-💼 LinkedIn: linkedin.com/in/muhammadsofyan
+## 📫 Hubungi Saya  
+
+- 🌍 **Website:** [muhammadsofyan.dev](https://muhammadsofyan.dev)
+- 📧 **Email:** [moehamadsofyan@gmail.com](mailto:moehamadsofyan@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/muhammadsofyan](https://linkedin.com/in/muhammadsofyan)
+- 📸 **Instagram:** [instagram.com/mhdsofyan_](https://instagram.com/mhdsofyan_)
+
+---
+
+⭐ *“Membangun sistem bukan sekadar menulis kode — tetapi menciptakan pengalaman yang hidup.”*
