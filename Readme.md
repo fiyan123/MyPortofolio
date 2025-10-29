@@ -7,7 +7,7 @@ Tujuan saya adalah menciptakan sistem web yang efisien, aman, dan elegan secara 
 
 ---
 
-> “Sebuah sistem bukan sekadar rangkaian kode, tetapi juga logika dalam menyalurkan kreativitas.”  
+> “Backend bukan hanya tentang server dan database, tapi tentang bagaimana logika bekerja harmonis untuk menghadirkan pengalaman yang tak terlihat namun terasa”  
 > — *Muhammad Sofyan*
 
 ---
